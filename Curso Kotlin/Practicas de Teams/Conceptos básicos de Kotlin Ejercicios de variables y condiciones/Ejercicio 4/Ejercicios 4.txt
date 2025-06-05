@@ -1,0 +1,18 @@
+fun main() {
+   
+
+    println(" Ejercicio 4:!!!\n")
+   
+   val numero = 7  
+
+    
+    if (numero % 2 == 0) {
+        println("Par")
+    } else {
+        println("Impar")
+    }
+       
+   
+
+
+}

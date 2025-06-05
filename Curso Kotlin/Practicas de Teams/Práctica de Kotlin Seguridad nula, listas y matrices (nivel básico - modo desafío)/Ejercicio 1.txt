@@ -1,0 +1,18 @@
+fun main() {
+
+    //Ejercicio 1: Detalles 👤 opcionales del usuario
+    //Declare tres variables que aceptan String valores NULL: 
+    //userName, userEmail, y userBio.
+    
+    
+    val userName: String? = "Carlos"
+    val userEmail: String? = null
+    val userBio: String? = ""
+
+    println("Nombre: ${userName ?: "[No proporcionado]"}")
+    println("Correo: ${userEmail ?: "[No disponible]"}")
+
+    val bioText = userBio?.takeIf { it.isNotEmpty() } ?: "[El usuario no tiene biografía o está vacía]"
+    println("Biografía: $bioText")
+    
+}

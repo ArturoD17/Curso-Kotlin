@@ -1,0 +1,27 @@
+fun main() {
+   
+
+    println(" Ejercicio 5:!!!\n")
+   
+   val savedUsername = "usuario123"
+    val savedPassword = "contraseñaSegura"
+
+    
+    val enteredUsername = "usuario123"
+    val enteredPassword = "contraseñaIncorrecta"
+
+
+    if (enteredUsername == savedUsername) {
+        
+        if (enteredPassword == savedPassword) {
+            println("Login Exitoso")  
+        } else {
+            println("Contraseña Incorrecta")  
+        }
+    } else {
+        println("Nombre de Usuario Incorrecto") 
+    } 
+   
+
+
+}

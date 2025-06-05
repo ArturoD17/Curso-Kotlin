@@ -1,0 +1,20 @@
+fun main() {
+   
+
+    
+     println(" Ejercicio 2:!!!\n")
+   
+  
+    val nota = 85  
+
+    
+    when {
+        nota in 90..100 -> println("A")
+        nota in 80..89 -> println("B")
+        nota in 70..79 -> println("C")
+        nota in 60..69 -> println("D")
+        else -> println("F")
+    }
+
+
+}

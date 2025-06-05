@@ -1,0 +1,15 @@
+fun main() {
+   //Ejercicio 2: Lista simple de tareas pendientes 
+       val tareas: MutableList<String?> = mutableListOf("Comprar pan", null, "Estudiar Kotlin", "Llamar a mamá")
+
+    for (tarea in tareas) {
+        println(tarea ?: "[Sin descripción de la tarea]")
+    }
+
+    val primeraTarea = tareas.firstOrNull()
+    if (primeraTarea == null) {
+        println("No hay tareas en la lista")
+    } else {
+        println("Primera tarea: ${primeraTarea ?: "[Sin descripción de la tarea]"}")
+    }
+    

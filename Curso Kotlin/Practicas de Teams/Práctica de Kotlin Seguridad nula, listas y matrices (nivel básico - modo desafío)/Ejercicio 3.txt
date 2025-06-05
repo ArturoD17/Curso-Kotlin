@@ -1,0 +1,18 @@
+fun main() {
+    
+    
+   //Ejercicio 3: Precios de los 💰 artículos
+    val nombres = arrayOf("Zapatos", "Camisa", "Pantalón", "Sombrero")
+    val precios = arrayOf(59.99, 25.0, null, 15.5)
+
+    val indice = 2  // Puedes cambiarlo para probar otros casos
+
+    if (indice in nombres.indices) {
+        val nombre = nombres[indice]
+        val precio = precios[indice]
+        val mensajePrecio = precio?.let { "$$it" } ?: "No disponible"
+        println("Artículo: $nombre, Precio: $mensajePrecio")
+    } else {
+        println("Índice de elemento no válido")
+    }
+}

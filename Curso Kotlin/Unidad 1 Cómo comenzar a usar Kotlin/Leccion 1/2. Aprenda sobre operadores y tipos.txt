@@ -1,0 +1,138 @@
+
+fun main() {
+    
+   /* 
+    //2. Aprenda sobre operadores y tipos
+    //Paso 1: Explorar los operadores numéricos
+    
+    println("Hello, world!!!")
+    
+ val res8: Int = 1 + 1
+    println("res8: kotlin.Int = $res8")
+
+    val res9: Int = 53 - 3
+    println("res9: kotlin.Int = $res9")
+
+    val res10: Int = 50 / 10
+    println("res10: kotlin.Int = $res10")
+
+    val res11: Double = 1.0 / 2.0
+    println("res11: kotlin.Double = $res11")
+
+    val res12: Double = 2.0 * 3.5
+    println("res12: kotlin.Double = $res12")
+    
+    
+ val res13: Int = 6*50 
+ println("res13: kotlin.Int = $res13")
+ 
+ val res14: Double = 6.0 * 50.0
+ println("res14: kotlin.Double = $res14")
+ 
+ val res15: Double = 6.0 * 50
+    println("res15: kotlin.Double = $res15")
+    
+ val res5: Int = 2.times(3)
+ println("res5: kotlin.Int = $res5")
+
+ val res6: Double = 3.5.plus(4)
+ println("res6: kotlin.Double = $res6")
+
+ val res7: Double = 2.4.div(2)
+ println("res7: kotlin.Double = $res7")
+ 
+ 
+ 
+ //Paso 2: Practica el uso de tipos
+ 
+
+val i: Int = 6 
+val b1 = i.toByte()
+println(b1)
+
+
+
+fun main() {
+    val b2: Byte = 1 // OK
+    println(b2) // ⇒ 1
+
+    val i1: Int = b2.toInt() 
+    println("i1: Int = $i1")
+
+    val i2: String = b2.toString() 
+    println("i2: String = $i2")
+
+    val i3: Double = b2.toDouble() 
+    println("i3: Double = $i3")
+    */
+    
+    
+
+    /*
+    val b2: Byte = 1 // OK
+    println(b2) // ⇒ 1
+
+    val i1: Int = b2.toInt() 
+    println("i1: Int = $i1")
+
+    val i2: String = b2.toString()
+    println("i2: String = $i2")
+
+    val i3: Double = b2.toDouble() 
+    println("i3: Double = $i3")
+    
+    
+    val oneMillion = 1_000_000
+    println("oneMillion = $oneMillion")
+    
+    val socialSecurityNumber = 999_99_9999L
+    println("socialSecurityNumber = $socialSecurityNumber")
+    
+    val hexBytes = 0xFF_EC_DE_5E
+    println("hexBytes = $hexBytes")
+    
+    val bytes = 0b11010010_01101001_10010100_10010010
+    println("bytes = $bytes")
+    */
+    
+    
+    //Paso 3: Conozca el valor de los tipos de variables
+  /*  
+var fish = 1
+    println("fish = $fish")
+    fish = 2
+    println("fish updated = $fish")
+
+    val aquarium = 1
+    println("aquarium = $aquarium")
+    */
+  /*  
+val fish: Int = 12
+println(fish)  
+
+val lakes: Double = 2.5 
+println(lakes) 
+*/
+
+//Paso 4: Aprenda sobre cadenas y caracteres
+
+    
+    /*
+val numberOfFish = 5
+val numberOfPlants = 12
+    
+val message = "I have $numberOfFish fish and $numberOfPlants plants"
+println(message)
+*/
+    
+val numberOfFish = 5
+val numberOfPlants = 12
+println("I have ${numberOfFish + numberOfPlants} fish and plants")  
+    
+    
+    
+    
+    
+    
+    
+}

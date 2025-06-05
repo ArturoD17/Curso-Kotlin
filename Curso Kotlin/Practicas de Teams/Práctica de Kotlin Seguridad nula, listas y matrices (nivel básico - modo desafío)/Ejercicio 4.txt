@@ -1,0 +1,12 @@
+fun main() {
+    
+//Ejercicio 4: Valores de configuración predeterminados
+
+     val settingColorTheme: String? = null
+    val settingFontSize: Int? = 14
+
+    val actualColorTheme = settingColorTheme ?: "Luz"
+    val actualFontSize = settingFontSize ?: 12
+
+    println("Tema de aplicación: $actualColorTheme, Tamaño de fuente: ${actualFontSize}pt.")
+}

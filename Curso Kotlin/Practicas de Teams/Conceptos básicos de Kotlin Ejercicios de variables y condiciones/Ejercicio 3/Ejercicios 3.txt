@@ -1,0 +1,28 @@
+fun main() {
+   
+
+    
+      println("Ejercicio 3:!!!\n")
+   
+   var colorSemaforo = "Red" 
+
+    
+    when (colorSemaforo) {
+        "Red" -> println("Stop")
+        "Yellow" -> println("Caution")
+        "Green" -> println("Go")
+        else -> println("Invalid light color")
+    }
+
+   
+    colorSemaforo = "Green"  
+    when (colorSemaforo) {
+        "Red" -> println("Stop")
+        "Yellow" -> println("Caution")
+        "Green" -> println("Go")
+        else -> println("Invalid light color")
+    }
+   
+
+
+}

@@ -1,0 +1,21 @@
+fun main() {
+   
+
+    println(" Ejercicio 6:!!!\n")
+   
+    
+    val temperatura: Double = 15.0  
+    
+  
+    when {
+        temperatura < 0 -> println("¡Congelación! Usa ropa muy abrigada.")
+        temperatura in 0.0..10.0 -> println("Hace frío. Usa una chaqueta abrigada.")
+        temperatura in 11.0..20.0 -> println("Hace fresco. Una chaqueta ligera debería estar bien.")
+        temperatura in 21.0..30.0 -> println("Hace calor. ¡Disfruta del clima!")
+        temperatura > 30 -> println("¡Hace mucho calor! Mantente hidratado.")
+        else -> println("Temperatura fuera del rango típico.")
+    }
+   
+
+
+}

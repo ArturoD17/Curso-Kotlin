@@ -1,0 +1,21 @@
+fun main() {
+    
+//Ejercicio 5: Suma de puntuaciones  anulables
+
+ val puntuaciones: List<Int?> = listOf(10, null, 20, 15, null, 5)
+
+    var sumaTotal = 0
+    for (puntuacion in puntuaciones) {
+        if (puntuacion != null) {
+            println("Puntuación registrada: $puntuacion")
+            sumaTotal += puntuacion
+        } else {
+            println("Intento fallido")
+        }
+    }
+    println("Puntuación total de los intentos registrados: $sumaTotal")
+
+    //Bonus
+    val puntuacionesValidas = puntuaciones.filterNotNull()
+    println("Puntuaciones válidas: $puntuacionesValidas")
+}

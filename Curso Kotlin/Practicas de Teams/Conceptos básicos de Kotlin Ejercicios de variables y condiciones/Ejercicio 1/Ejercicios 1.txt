@@ -1,0 +1,24 @@
+fun main() {
+   println("Ejercicio 1:!!!\n")
+
+    
+    var edad = 17
+    
+    if (edad < 18) {
+        println("Menor de edad\n")
+    } else {
+        println("Adulto\n")
+    }
+
+    
+    edad = 25
+
+    
+    if (edad < 18) {
+        println("Menor de edad\n")
+    } else {
+        println("Adulto\n")
+    }
+
+
+}

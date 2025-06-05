@@ -1,0 +1,29 @@
+fun main() {
+   
+
+ println(" Ejercicio 7:!!!\n")
+    
+    
+   var userName: String? = "Alice"
+
+    
+    if (userName != null) {
+        println("Hello, $userName!")
+    } else {
+        println("Hello, Invitado!")
+    }
+
+    
+    userName = null
+
+     
+    if (userName != null) {
+        println("Hello, $userName!")
+    } else {
+        println("Hello, invitado!")
+    }
+   
+   
+
+
+}

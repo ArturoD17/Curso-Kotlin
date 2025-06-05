@@ -1,0 +1,49 @@
+
+fun main() {
+//4. Aprenda sobre la nulidad
+
+//Paso 1: Conozca la nulabilidad    
+    /*
+    //1.Declarar un Inty asignarle null.
+   var rocks: Int? = null
+    
+    //2.
+    var marbles: Int? = null
+   
+    */
+    /*
+//Paso 2: Aprenda sobre los operadores ? y ?:
+    
+var fishFoodTreats: Int? = 6  // Usamos tipo nullable Int? para que tenga sentido verificar si es null
+
+    if (fishFoodTreats != null) {
+        fishFoodTreats = fishFoodTreats.dec()
+    }
+
+    println("Fish food treats left: $fishFoodTreats")
+
+*/
+    
+/*    
+var fishFoodTreats = 6
+fishFoodTreats = fishFoodTreats.dec()
+println(fishFoodTreats) 
+*/
+    
+var fishFoodTreats: Int? = 6
+fishFoodTreats = fishFoodTreats?.dec() ?: 0
+println(fishFoodTreats) 
+
+
+
+}
+
+
+
+
+    
+    
+    
+    
+    
+   
