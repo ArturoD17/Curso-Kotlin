@@ -1,0 +1,35 @@
+package com.example.holamundo.ejercicio
+
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
+
+@Composable
+fun Ejercicio2(navController: NavController) {
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text(
+            text = "Wellington Arturo Díaz Báez",
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = MaterialTheme.colorScheme.primary
+        )
+        Text(
+            text = "Desarrollador Android Jr.",
+            fontSize = 18.sp,
+            color = Color.Gray
+        )
+        Text(
+            text = "wellington@email.com",
+            fontSize = 16.sp
+        )
+    }
+}
+
