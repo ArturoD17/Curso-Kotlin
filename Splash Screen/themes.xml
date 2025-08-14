@@ -1,0 +1,15 @@
+<resources>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Fondo blanco -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!-- Ícono animado de la estrella -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/avd_splash_logo</item>
+
+        <!-- Duración de la animación en milisegundos -->
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+
+        <!-- Tema principal posterior al splash -->
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreen</item>
+    </style>
+</resources>

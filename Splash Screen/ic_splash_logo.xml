@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <group
+        android:name="iconGroup"
+        android:pivotX="12"
+        android:pivotY="12"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <!-- Estrella dorada visible sobre fondo blanco -->
+        <path
+            android:name="starPath"
+            android:pathData="M12,2L15,8L22,9L17,14L18,21L12,18L6,21L7,14L2,9L9,8L12,2Z"
+            android:fillColor="#FFFFD700"/>
+    </group>
+</vector>
